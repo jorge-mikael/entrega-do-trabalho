@@ -2,6 +2,7 @@
 venv/
 .venv/
 
+# arquivos do pyinstaller
 build/
 dist/
 

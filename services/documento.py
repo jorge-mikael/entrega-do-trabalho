@@ -28,14 +28,14 @@ def substituir_placeholders(substituicoes, caminho_saida, nome, destino):
                         run = paragrafo.add_run()
                         storage = Storage(f'assinaturas/{substituicao}')
                         assinatura = storage.baixar_arquivo_temporario()
-                        run.add_picture(assinatura, height=Cm(3))
+                        run.add_picture(assinatura, width=Cm(7), height=Cm(3))
 
                     elif placeholder == '{{aprovador}}':
                         paragrafo.clear()
                         run = paragrafo.add_run()
                         storage = Storage(f'assinaturas/{substituicao}')
                         assinatura = storage.baixar_arquivo_temporario()
-                        run.add_picture(assinatura, height=Cm(3))
+                        run.add_picture(assinatura, width=Cm(7), height=Cm(3))
 
                     else:
                         paragrafo.text = paragrafo.text.replace(
