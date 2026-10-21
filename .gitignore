@@ -1,0 +1,18 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Configurações locais e segredos
+.env
+.env.*
+
+# Arquivos locais do banco SQLite
+*.sqlite3
+*.db
+
+# Configurações do VS Code
+.vscode/

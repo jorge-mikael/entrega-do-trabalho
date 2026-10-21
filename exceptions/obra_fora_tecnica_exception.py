@@ -1,0 +1,2 @@
+class ObraNaoEstaNaTecnica(Exception):
+    pass
